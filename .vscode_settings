@@ -1,0 +1,52 @@
+{
+    "editor.fontSize": 15,
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "editor.rulers": [80],
+    "editor.tabSize": 4,
+    "editor.renderWhitespace": "boundary",
+    "[yaml]": {
+        "editor.autoIndent": false
+    },
+    "files.associations": {
+        "*.erb": "erb"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/_site": true,
+        "**/tmp": true,
+        "**/*.pyc": true,
+        "**/*.asset-cache": true,
+        "**/*.cache": true,
+        "**/*.jekyll-cache": true,
+        "**/*.tweet-cache": true,
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/*.egg-info": true,
+        "**/*.coverage": true,
+        "**/celerybeat-schedule": true,
+        "**/node_modules": true,
+        "**/bower_components": true
+    },
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.eol": "\n",
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
+    "telemetry.enableTelemetry": false,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe",
+    "terminal.external.windowsExec": "C:\\WINDOWS\\System32\\bash.exe",
+    "workbench.colorTheme": "Dracula",
+    "workbench.list.openMode": "doubleClick",
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "newUntitledFile",
+    "git.ignoreMissingGitWarning": true,
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true
+}
