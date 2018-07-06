@@ -1,4 +1,16 @@
-
+## Build
+- Build images and run container
+```
+docker-compose up --build
+```
+- Run container
+```
+docker-compose up
+```
+- Stop container. Ctrl-C or
+```
+docker-compose stop
+```
 
 ## Tests
 - Run tests
