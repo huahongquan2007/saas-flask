@@ -40,13 +40,16 @@
         "files.trimTrailingWhitespace": false
     },
     "telemetry.enableTelemetry": false,
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe",
-    "terminal.external.windowsExec": "C:\\WINDOWS\\System32\\bash.exe",
     "workbench.colorTheme": "Dracula",
     "workbench.list.openMode": "doubleClick",
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "newUntitledFile",
     "git.ignoreMissingGitWarning": true,
     "files.autoSave": "afterDelay",
-    "git.autofetch": true
+    "git.autofetch": true,
+    "python.pythonPath": "C:\\tools\\miniconda3\\envs\\env3\\python.exe",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "/K","C:\\tools\\miniconda3\\Scripts\\activate.bat C:\\tools\\miniconda3"
+    ],
 }
